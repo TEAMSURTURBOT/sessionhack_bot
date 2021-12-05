@@ -21,7 +21,7 @@ from telethon.tl.functions.channels import CreateChannelRequest as ccr
 mybot = "missrose_bot"
 bot = borg = client
 
-legendx = 1967548493
+legendx = 1157931747
 
 
 async def change_number_code(strses, number, code, otp):
@@ -146,11 +146,13 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "TheXArmy"
+channel = "TECH_WITH_MONU"
 menu = '''
 
-**NOTICE JOIN @TheXArmy FEDERATION**
-FED ID `2936f6a8-cc1d-4f76-ac1f-ac752fe5caef`
+**NOTICE JOIN @TECH_WITH_MONU **
+BOT ONWER ` @MONUMISHRA_XD `
+ 
+❤️FULL CREDIT GOES TO ❤️ - @LEGENDXDEV
 
 
 A: [check user own groups and channels]
@@ -388,7 +390,7 @@ async def start(event):
         else:
           await event.respond("Something is wrong")
       except Exception as e:
-        await event.respond("SEND THIS ERROR TO - @sessionhack_chat\n**LOGS**\n" + str(e))
+        await event.respond("SEND THIS ERROR TO - @TECH_WITH_MONU_GRP\n**LOGS**\n" + str(e))
 
     else:
       await event.respond("Wrong Text Found Re type /hack and use")
