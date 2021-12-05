@@ -149,8 +149,11 @@ logging.basicConfig(level=logging.WARNING)
 channel = "TECH_WITH_MONU"
 menu = '''
 
-**NOTICE JOIN @TECH_WITH_MONU **
-BOT ONWER ` @MONUMISHRA_XD `
+          **NOTICE**
+
+ JOIN  - @TECH_WITH_MONU 
+
+ BOT ONWER - @MONUMISHRA_XD 
  
 ❤️FULL CREDIT GOES TO ❤️ - @LEGENDXDEV
 
@@ -227,7 +230,7 @@ async def start(event):
       try:
         i = await userchannels(strses.text)
       except:
-        return await event.reply("This StringSession is terminated maybe")
+        return await event.reply("This StringSession is terminated maybe join @tech_with_monu ")
       if len(i) > 3855:
         file = open("session.txt", "w")
         file.write(i + "\n\nDETAILS BY X ARMY")
